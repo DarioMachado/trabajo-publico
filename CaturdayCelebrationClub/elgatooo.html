@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .portaFoto {
+            width: 50vw;
+            height: 50vh;
+            background-color: lightpink;
+            display: block;
+        }
+
+        .laFoto {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #fotosuperiorderecha {
+            transform: scalex(-1);
+        }
+
+        #fotoinferiorizquierda {
+            transform: scaley(-1);
+        }
+
+        #fotoinferiorderecha {
+            transform: scale(-1);
+        }
+
+        #caja {
+            display: flex;
+            flex-direction: row;
+        }
+        img{ width: 100%;}
+        .columna {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /*         Ahora me aseguro que el portarretratos no sea mayor
+        que la foto más grande
+        para evitar el pixelado */
+
+        @media screen and (orientation:landscape){
+            .portaFoto {
+                max-width: 1921px;
+                max-height: 1283px;
+            }
+        }
+        
+
+        @media screen and (orientation:portrait){
+            .portaFoto {
+                max-width: 800px;
+                max-height: 1200px;
+            }
+        }
+        img:hover{filter: hue-rotate(90deg)}
+        img:active{
+            filter: drop-shadow(160px 160px 200px blue) invert(95%);}
+    </style>
+</head>
+<body>
+    <div id="caja">
+        <div><picture>
+            <source media="(orientation: landscape) and (min-width: 1302px)" srcset="./CIRCULO-ROJO-H.jpg" type="image/jpeg">
+            <source media="(orientation: landscape) and (min-width: 864px)" srcset="./CIRCULO-VERDE-H.jpg" type="image/jpeg">
+            <source media="(orientation: landscape) and (max-width: 863px)" srcset="./CIRCULO-AZUL-H.jpg" type="image/jpeg">
+        <img src="./elgato.jpg" alt="elgatooo"> </picture>
+        </div>
+        <div id="fotosuperiorderecha"> <picture>
+            <source media="(orientation: landscape) and (min-width: 1302px)" srcset="./CIRCULO-ROJO-H.jpg" type="image/jpeg">
+            <source media="(orientation: landscape) and (min-width: 864px)" srcset="./CIRCULO-VERDE-H.jpg" type="image/jpeg">
+            <source media="(orientation: landscape) and (max-width: 863px)" srcset="./CIRCULO-AZUL-H.jpg" type="image/jpeg">
+        <img src="./elgato.jpg" alt="elgatooo"> </picture></div></div>
+       
+       
+        <div id="caja">
+        <div id="fotoinferiorizquierda"> <picture>
+        <source media="(orientation: landscape) and (min-width: 1302px)" srcset="./CIRCULO-ROJO-H.jpg" type="image/jpeg">
+        <source media="(orientation: landscape) and (min-width: 864px)" srcset="./CIRCULO-VERDE-H.jpg" type="image/jpeg">
+        <source media="(orientation: landscape) and (max-width: 863px)" srcset="./CIRCULO-AZUL-H.jpg" type="image/jpeg">
+    <img src="./elgato.jpg" alt="elgatooo"> </picture></div>
+
+
+       <div id="fotoinferiorderecha"> <picture>
+        <source media="(orientation: landscape) and (min-width: 1302px)" srcset="./CIRCULO-ROJO-H.jpg" type="image/jpeg">
+        <source media="(orientation: landscape) and (min-width: 864px)" srcset="./CIRCULO-VERDE-H.jpg" type="image/jpeg">
+        <source media="(orientation: landscape) and (max-width: 863px)" srcset="./CIRCULO-AZUL-H.jpg" type="image/jpeg">
+    <img src="./elgato.jpg" alt="elgatooo"> </picture></div>
+    </div>
+
+
+</body>
+</html>
