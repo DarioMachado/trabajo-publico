@@ -22,16 +22,22 @@ img {
     z-index:0;
 }
 
-div{opacity: 0;
-position: absolute;
-top:0%;
-left:0%;
-width: 100%;
-height: 100%;
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
+div {
+    position:absolute;
+    top:0%;
+    left:0%;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    /* para suavizar los efectos */
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
+    background-color:transparent;
+    z-index:1;
 }
 
 
