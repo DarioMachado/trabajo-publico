@@ -21,21 +21,18 @@ img {
     z-index:0;
 }
 
-div {
-    position:absolute;
-    bottom:15%;
+div{opacity: 0;
+    position: absolute;
+    bottom: 15%;
     left:0%;
     width: 100%;
     height: 100%;
-    opacity:0;
     display:flex;
     flex-direction:column;
-    
-    justify-content:center;
    
-    background-color:transparent;
-    z-index:1;
-}
+    justify-content:center;
+    z-index: 1;
+    }
 
 
 
