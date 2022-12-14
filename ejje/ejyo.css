@@ -34,9 +34,7 @@ align-items:center;
 justify-content:center;
 z-index: 1;
 }
-img:active, img:hover{
-    opacity: 0.8;
-}
+
 
 div:active, div:hover{
 opacity: 1;
@@ -45,6 +43,7 @@ font-weight: bold;
 font-size:calc(1.2em + 1vw + 1vh);
 text-align: center;
 transition: 2s;
+background-color:rgba(255,255,255,0.15)
 }
 
 @media all and (orientation:landscape){
