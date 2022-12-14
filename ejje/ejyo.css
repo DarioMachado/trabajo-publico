@@ -18,9 +18,7 @@ img {
     height:100%;
     object-fit: cover;
     object-position: 60% 10%;
-    /* para suavizar los efectos */
-    transition: 0.8s;
-    -webkit-transition: 0,8s;
+    
     z-index:0;
 }
 
@@ -35,18 +33,14 @@ div {
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    /* para suavizar los efectos */
-    transition: all 1.5s ease;
-    -webkit-transition: all 1.5s ease;
+    
     background-color:transparent;
     z-index:1;
 }
 
 p {
     text-align:center;
-    /* para suavizar los efectos */
-    transition: all 1.5s ease;
-    -webkit-transition: all 1.5s ease;
+  
     background-color:transparent;
     color:blue;
     
