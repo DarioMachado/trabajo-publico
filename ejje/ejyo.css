@@ -39,14 +39,18 @@ z-index: 1;
 
 div:active, div:hover{
 opacity: 1;
-color: blue;
-font-weight: bold;
-font-size:calc(1.2em + 1vw + 1vh);
-text-align: center;
-transition: 2s;
+
 background-color:rgba(255,255,255,0.15)
 }
 
+
+p{color: blue;
+    font-weight: bold;
+    font-size:calc(1.2em + 1vw + 1vh);
+    text-align: center;
+    transition: 2s;}
+
+    
 @media all and (orientation:landscape){
     img, div {
         width:70vh;
