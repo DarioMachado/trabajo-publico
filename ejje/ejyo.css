@@ -19,8 +19,8 @@ img {
     object-fit: cover;
     object-position: 60% 10%;
     /* para suavizar los efectos */
-    transition: 0.8s;
-    -webkit-transition: 0,8s;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
     z-index:0;
 }
 
@@ -48,7 +48,7 @@ p {
     transition: all 1.5s ease;
     -webkit-transition: all 1.5s ease;
     background-color:transparent;
-    color:blue;
+    color:red;
     text-shadow:1px 1px goldenrod;
     font-size:calc(1.2em + 1vw + 1vh);
     font-weight:bold;
