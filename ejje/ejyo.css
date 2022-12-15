@@ -31,17 +31,20 @@ position: absolute;
 z-index: 1;
 }
 
-div:active, div:hover{text-align: center;
-opacity: 1;
-color: blue;
-font-weight: bold;
-font-size: calc(1.2em + 1vh + 1vw);
+div:active, div:hover{
+opacity:1;
+
 }
+p{color: blue;
+    font-weight: bold;
+    font-size: calc(1.2em + 1vh + 1vw);
+    text-align: center;
+    z-index: 2;}
 
 
 @media (orientation:landscape){
     img, div{width: 70vh;
-    margin-left: auto;
+    margin-left: 25%;
     margin-right: auto;
     }
 
