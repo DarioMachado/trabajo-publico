@@ -29,6 +29,7 @@ left:0;
 bottom:15%;
 position: absolute;
 z-index: 1;
+justify-content: center;
 }
 
 div:active, div:hover{
