@@ -1,7 +1,7 @@
 *{margin:0;
 padding:0;
 box-sizing: border-box;
-border: 3px green solid;}
+}
 
 body{width:100vw;
 height:100vh;
@@ -45,8 +45,7 @@ p{color: blue;
 
 @media (orientation:landscape){
     img, div{width: 70vh;
-    margin-left: 25%;
-    margin-right: auto;
+    margin-left: calc(50vh - 35vw);
     }
 
 
