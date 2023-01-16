@@ -8,6 +8,13 @@
 				<h2>
 						<xsl:value-of select="cancion/titulo"/>
 				</h2>
+				<xsl:for-each select="catalog/cd">
+<tr>
+<td><xsl:value-of select="title"/></td>
+<td><xsl:value-of select="artist"/></td>
+</tr>
+</xsl:for-each>
+				
 			</body>
 		</html>
 	</xsl:template>
