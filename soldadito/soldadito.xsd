@@ -11,7 +11,7 @@
     </xs:element>
     <xs:element name="titulo" type="xs:string"/>
     <xs:element name="autor" type="xs:string"/>
-    <xs:element name="letras">
+    <xs:element name="letra">
         <xs:complexType>
             <xs:sequence>
                 <xs:element maxOccurs="unbounded" ref="estrofa"/>
