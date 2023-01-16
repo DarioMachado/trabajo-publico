@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="soldadito.xsl"?>
-<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/1DAW/Documents/DarioMachado/lenguaje-de-marcas/xml/soldadito.xsd">
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://dariomachado.github.io/trabajo-publico/soldadito/soldadito.xsd">
 	<titulo>Soldadito Marinero</titulo>
 	<autor>Fito y los Fitipaldis</autor>
 	<letras>
@@ -19,19 +19,26 @@
 		<estrofa tipo="normal">
 			<verso>Él quería cruzar los mares y olvidar a su sirena</verso>
 			<verso>La verdad, no fue difícil cuando conoció a Mariela</verso>
-			<verso></verso>
-			<verso></verso>			
+			<verso>Que tenía los ojos verdes y un negocio entre las piernas</verso>
+			<verso>Hay que ver que puntería, no te arrimas a una buena</verso>
+		</estrofa>
+		<estrofa tipo="estribillo">
+			<verso>Soldadito marinero conociste a una sirena</verso>
+			<verso>De esas que dicen te quiero si ven la cartera llena</verso>
+			<verso>Escogiste a la más guapa y a la menos buena</verso>
+			<verso>Sin saber como ha venido te ha cogido la tormenta</verso>
 		</estrofa>
 		<estrofa tipo="normal">
-			<verso></verso>
-			<verso></verso>
-			<verso></verso>
-			<verso></verso>			
+			<verso>Después de un invierno malo, una mala primavera</verso>
+			<verso>Dime por que estas buscando una lágrima en la arena</verso>
+			<verso>Después de un invierno malo, una mala primavera</verso>
+			<verso>Dime por que estas buscando una lágrima en la arena</verso>
+			<verso>Después de un invierno malo, una mala primavera</verso>
+			<verso>Dime por que estas buscando una lágrima en la arena</verso>
+			<verso>Después de un invierno malo</verso>
 		</estrofa>
-		<estrofa tipo="normal">
-			<verso></verso>
-			<verso></verso>
-			<verso></verso>		
-		</estrofa>
-	</letras>
+
+</letra>
+
+
 </cancion>
