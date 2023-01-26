@@ -1,0 +1,33 @@
+body{
+counter-reset: estrofa verso;
+}
+
+
+
+p{
+color:blue;
+margin-left:20px;
+}
+
+span{
+color:blue;
+background-color:yellow;
+font-weight: bold;
+}
+
+h2{
+color:blue;
+
+}
+
+span::before{
+counter-increment: estrofa;
+content: "Párrafo " counter(estrofa) ": ";
+
+}
+p::before{
+counter-increment: verso;
+content: "Verso " counter(verso) ": ";
+
+
+}

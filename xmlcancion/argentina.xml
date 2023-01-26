@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="argentina.xsl"?>
+
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="argentina.xsd">
+	<titulo>HIMNO DE ARGENTINA</titulo>
+	<estrofa>
+		<verso>Oid mortales, el grito sagrado</verso>
+		<verso>¡Libertad! ¡Libertad! ¡Libertad!</verso>
+		<verso>Oid el ruido de rotas cadenas</verso>
+		<verso>Ved en trono a la noble igualdad</verso>
+	</estrofa>
+	<estrofa>
+		<verso>Ya su trono dignísimo abrieron</verso>
+		<verso>Las Provincias Unidas del Sud</verso>
+		<verso>Y los libres del mundo responden</verso>
+		<verso>¡Al gran pueblo argentino, salud!</verso>
+		<verso>Y los libres del mundo responden</verso>
+		<verso>¡Al gran pueblo argentino, salud!</verso>
+	</estrofa>
+	<estrofa>
+		<verso>Sean eternos los laureles</verso>
+		<verso>Que supimos conseguir</verso>
+		<verso>Sean eternos los laureles</verso>
+		<verso>Que supimos conseguir</verso>
+	</estrofa>
+	<estrofa>
+		<verso>¡Coronados de gloria vivamos</verso>
+		<verso>O juremos con gloria morir!</verso>
+		<verso>¡O juremos con gloria morir!</verso>
+		<verso>¡O juremos con gloria morir!</verso>
+		<verso>¡O juremos con gloria morir!</verso>
+	</estrofa>
+</cancion>
