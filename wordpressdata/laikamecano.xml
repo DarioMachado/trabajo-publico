@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://dariomachado.github.io/trabajo-publico/wordpressdata/canciones.xsl"?>
+
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<titulo>Mecano</titulo>
+	<autor>Laika</autor>
+	<salida>1986</salida>
+	<descripcion>Canción escrita por Laika, la primera perra en el espacio. "Todavía hoy no sé si yo soy el 'primer hombre' o el 'último perro' en volar al espacio." - Yuri Gagarin</descripcion>
+	<letra>
+		<estrofa>
+			<verso>Era rusa y se llamaba Laika</verso>
+			<verso>Ella era una perra muy normal</verso>
+			<verso>Pasó de ser un corriente animal</verso>
+			<verso>A ser una estrella mundial</verso>
+		</estrofa>
+		<estrofa>
+			<verso>La metieron dentro de una nave</verso>
+			<verso>Para observar la reacción</verso>
+			<verso>Ella fue la primera astronauta</verso>
+			<verso>En el espacio exterior</verso>
+			<verso>En el espacio exterior</verso>
+		</estrofa>
+		<estrofa>
+			<verso>Preparado está ya el cohete para zarpar</verso>
+			<verso>El control en tierra dice a Laika adiós</verso>
+		</estrofa>
+    <estrofa>
+			<verso>En la base todo era silencio</verso>
+			<verso>Esperando alguna señal</verso>
+			<verso>Todos con los cascos en la oreja</verso>
+			<verso>Oyeron a la perra ladrar</verso>
+		</estrofa>
+      <estrofa>
+			<verso>Mientras en la Tierra una gran fiesta</verso>
+			<verso>Gritos, risas, llantos y champán</verso>
+			<verso>Laika miraba por la ventana</verso>
+			<verso>¿Qué será esa bola de color?</verso>
+			<verso>¿Y qué hago yo girando alrededor?</verso>
+		</estrofa>
+    <estrofa>
+			<verso>Preparado está ya el cohete para zarpar</verso>
+			<verso>El control en tierra dice a Laika adiós</verso>
+		</estrofa>
+	</letra>
+</cancion>
