@@ -1,0 +1,36 @@
+*{
+background-color:#0F47B0;
+color:#E4E7EC;
+text-align:center;}
+
+
+.letra::before{
+font-weight: bold;
+content: "Letra:";
+}
+
+.letra:hover{
+color:black;}
+
+.descripcion{
+margin: 1vh 30vw 1vh 30vw;
+}
+
+
+.verso:hover{
+color:black;
+transition:0.2s;
+font-weight:bold;
+}
+
+@keyframes idk{
+from{color:#E4E7EC;}
+to{color:black;
+font-size:60px;}
+}
+
+.titulo{
+animation-name: idk;
+animation-duration: 30s;
+animation-fill-mode: forwards;  
+}
