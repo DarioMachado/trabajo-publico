@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://github.com/DarioMachado/trabajo-publico/wordpressdata/canciones.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://dariomachado.github.io/trabajo-publico/wordpressdata/canciones.xsl"?>
 
 <cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 	<titulo>Moonlight Sonata</titulo>
