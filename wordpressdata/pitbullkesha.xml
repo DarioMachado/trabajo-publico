@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://dariomachado.github.io/trabajo-publico/wordpressdata/canciones.xsl"?>
+
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<titulo>Mecano</titulo>
+	<autor>Laika</autor>
+	<salida>1986</salida>
+	<descripcion>Canción escrita por Laika, la primera perra en el espacio. "Todavía hoy no sé si yo soy el 'primer hombre' o el 'último perro' en volar al espacio." - Yuri Gagarin</descripcion>
+	<letra>
+		<estrofa>
+			<verso>It's goin' down, I'm yellin' timber</verso>
+			<verso>You better move, you better dance</verso>
+			<verso>Let's make a night you won't remember</verso>
+			<verso>I'll be the one you won't forget</verso>
+		</estrofa>
+		<estrofa>
+			<verso>Ooh-ooh (timber), ooh-ooh (timber)</verso>
+			<verso>Ooh-ooh-ooh-ooh-ooh-ooh (it's goin' down)</verso>
+			<verso>Ooh-ooh (timber), ooh-ooh (timber)</verso>
+			<verso>Ooh-ooh-ooh-ooh-ooh-ooh (it's goin' down, woo)</verso>
+		
+		</estrofa>
+		<estrofa>
+			<verso>The bigger they are, the harder they fall</verso>
+			<verso>This biggity boy's a diggity dog</verso>
+      <verso>I have 'em like Miley Cyrus, clothes off</verso>
+			<verso>Twerking in their bras and thongs (timber)</verso>
+      <verso>Face down, booty up (timber)</verso>
+			<verso>That's the way we like to what (timber)</verso>
+      <verso>I'm slicker than an oil spill</verso>
+			<verso>She say she won't, but I bet she will (timber)</verso>
+		</estrofa>
+    <estrofa>
+			<verso>Swing your partner 'round and 'round</verso>
+			<verso>End of the night, it's goin' down</verso>
+			<verso>One more shot, another round</verso>
+			<verso>End of the night, it's goin' down</verso>
+      <verso>Swing your partner 'round and 'round</verso>
+			<verso>End of the night, it's goin' down</verso>
+			<verso>One more shot, another round</verso>
+			<verso>End of the night, it's goin' down</verso>
+		</estrofa>
+     <estrofa>
+			<verso>It's goin' down, I'm yellin' timber</verso>
+			<verso>You better move, you better dance</verso>
+			<verso>Let's make a night you won't remember</verso>
+			<verso>I'll be the one you won't forget</verso>
+       <verso>It's goin' down, I'm yellin' timber</verso>
+			<verso>You better move, you better dance</verso>
+			<verso>Let's make a night you won't remember</verso>
+			<verso>I'll be the one you won't forget</verso>
+		</estrofa>
+   
+	</letra>
+</cancion>
