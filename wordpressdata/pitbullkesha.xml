@@ -2,10 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="https://dariomachado.github.io/trabajo-publico/wordpressdata/canciones.xsl"?>
 
 <cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-	<titulo>Mecano</titulo>
-	<autor>Laika</autor>
-	<salida>1986</salida>
-	<descripcion>Canción escrita por Laika, la primera perra en el espacio. "Todavía hoy no sé si yo soy el 'primer hombre' o el 'último perro' en volar al espacio." - Yuri Gagarin</descripcion>
+	<titulo>Ke$ha</titulo>
+	<autor>Pitbull</autor>
+	<salida>2013</salida>
+	<descripcion>¿Por qué lo hizo? Es lo único que pienso al leer esta letra.</descripcion>
 	<letra>
 		<estrofa>
 			<verso>It's goin' down, I'm yellin' timber</verso>
