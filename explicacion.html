@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicación trabajo</title>
+    <style>
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+            font-family: Sans-serif ;
+        }
+    </style>
+</head>
+
+<body style="background-color: #2B2F33; color: white;">
+    <div class="tab">
+    <h1>Explicación del trabajo de programación</h1>
+    <p>Hola buenas Miguel. ¿Recuerda cuando dijo que no escribiesemos ninguna línea de código hasta que nos diese el visto bueno al trabajo? Porque yo acabo de acordarme ahora mismo.
+        <br> Es posible que haya escrito ya un par de líneas de código, unas 100 quizás.
+        <br> Lo que quiero decir es que lo he hecho hecho está y no vamos a conseguir nada borrándolo.
+        
+        <br> También está el tema de que se me da bastante mal hacer los diagramas de clase, y que cuando se me ocurre una idea nueva no me gustaría no poder meterla solo porque no esté en el diagrama.
+        <br>
+        <br> Entiendo que la realización de diagrama de clases es una habilidad importante para los programadores, pero no me gustaría que mi baja habilidad a la hora de realizarlos me limite.
+        <br> Por eso creo que lo mejor es que le enseñe lo poco que llevo hecho, ya que pienso que lo entenderá mejor que en el diagrama.
+        <br> Además de que incluye clases que no están el diagrama, también hay algunas diferencias como más o menos variables internas.
+    </p>
+
+
+    <img src="https://i.gyazo.com/f922af49c6edd106dff13b9930381353.png">
+
+    <p>Estas son las clases que llevo hechas. Por ejemplo las que se incluyen en el paquete "interfazUsuario" nunca se me hubiera ocurrido meterlas en el diagrama, son cosas que metes cuando hace falta.
+        <br> Lo mismo podría decirse de la excepción ArrayDesordenado, son cosas que no te das cuenta que podrían hacerte falta hasta que estás ahí.
+    </p>
+    <img src="https://i.gyazo.com/5c8c4eeb859d44832fd472e5bc0bf66f.png">
+    <p>Pantalla de inicio (WIP (WIP significa Work In Progress (Trabajo en proceso))) 
+
+        <br> Los botones hacen exactamente lo que uno esperaría que hagan. Mover el ratón por encima hace que los botones cambien de color.
+        <br> Es WIP porque aún está feo, necesita más triángulos.
+        <br> El juego no se llama Dummy, Dummy viene de Dummy text.
+
+    </p>
+    <img src="https://i.gyazo.com/1775a05713903c0685d68b1a796d20f5.png">
+
+
+    <p>Menú de opciones completamente funcional. O eso diría si no fuese porque cambiar la resolución del frame en runtime hace que de desincronicen todas las notas.
+    <br>Esa parte he de moverla al launcher, tras el proceso del Login y antes de iniciar el juego.
+    </p>
+    <img src="https://i.gyazo.com/02c3e339616778460bae50fc7f771a2f.png">
+
+    <p>¡Es Dragon Ball! Está aquí, y es completamente jugable.
+        <br> Y cuando digo completamente, quiero decir la versión de 1 minuto y medio.
+        <br>El menú de la izquierda es de momento mi parte de código favorita del trabajo.
+    </p>
+    <img src="https://i.gyazo.com/1ee63d4a64f730ae21709c5e4c988b52.png">
+    <p>
+        Primero, cuento el número el número de carpetas en la ruta /data/canciones
+        <br>Con eso puedo saber cuántas canciones tengo al iniciar el programa.
+
+    </p>
+    <img src="https://i.gyazo.com/4f5c6cf504470d5cbba71dbe3de0101e.png">
+    <p>
+        Luego dentro de cada carpeta ("cancion"+index) tengo varios archivos con el mismo nombre, como smallicon.png
+       <br> Solo tengo que extraer sacar esas imagenes haciendo un bucle for durante el número de carpetas que haya (o sea, número de canciones totales)
+       <br> Y de ahí sacar por ejemplo "cancion"+index+"smallicon.png"
+       <br> Lo mejor de este método es que puedo ir añadiendo nuevas canciones sin tener que tocar nada de código para hacerlo.
+       <br> Luego todo eso lo añado a un JPanel, que añado a un JScrollPane que añado al menú. Eso sí, no sé cómo hacer que se ponga negro.
+    </p>
+    <img src="https://i.gyazo.com/ff55ff63a967d153e1777f88eb319155.png">
+    <p>
+        Sí, hacer click en las imágenes hace que cambie el contenido, como no podía ser de ninguna otra forma.
+
+    </p>
+
+    <img src="https://i.gyazo.com/4c211734da576c28f6b7d55612e68cda.png">
+
+    <p>
+        Hacer click en PLAY, te lleva a la pantalla del juego, en el que notas caen y hay que dar en el momento justo para ir acumulando puntos.
+        <br> Esto tambiéne es un WIP, aún se ve bastante feo, por suerte gracias a la clase Skin y al archivo Skin.yaml puedo editar fácilmente los colores de cada canción para darles un poco de personalidad.
+
+    </p> 
+    <img src="https://i.gyazo.com/11a66e97b4d7defa9b0f3a246f4afb00.png">
+
+    <p>
+        Estos colores están en formato decimal en lugar de hexadecimal.
+        <br> En el espacio vacío de la izquierda, aún queda por implementar la letra de la canción y quizás alguna imagen (si no afecta mucho al rendimiento)
+
+    </p>
+
+    <p>
+        Las notas se generan gracias a un csv llamado... notas.csv 
+        <br> Estas notas las he conseguido haciendo otro programa en java, al que he llamado grabadora.
+
+
+    </p>
+    <img src="https://i.gyazo.com/07e3ff141a15e21d8aeaaa5e943822c8.png">
+
+    <p>
+        Este programa lee mis inputs mientras suena la música que quiero de fondo, y apunta en un csv la tecla que he pulsado y la décima de segundo en la que lo he hecho (con un timer)
+        <br> Luego en el programa principal leo esos csv.
+    </p>
+
+
+
+    <p>
+        Finalmente, en principio no metería la carpeta data en el git de cenec ya que es bastante pesada (100mb y subiendo), en su lugar dejaré un txt con el link de descarga de drive a la carpeta data más reciente.
+       <br> En la carpeta data están todos los datos de las canciones así como cosas como fonts. El programa no funcionará sin la carpeta data, pero al mismo tiempo el código sería el mismo.
+
+
+    </p>
+
+    </div>
+    
+</body>
+</html>
